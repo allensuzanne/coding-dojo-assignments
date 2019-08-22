@@ -1,8 +1,8 @@
-* {
+/** {
     border: .5px dotted red;
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 body {
     background-color: #000;
@@ -65,7 +65,7 @@ header h2 {
     background-color: grey;
 }
 .second-row {
-    padding: 20px;
+    padding: 20px 50px;
 
 }
 
@@ -75,14 +75,21 @@ header h2 {
     vertical-align: top;
     margin: 10px;
     padding: 0px;
+    background: linear-gradient(90deg, #fff 10%,#dacdd9 100% );
+    /*background-color: #dacdd9;*/
+    color: #000;
 }
 
- .row-item img {
+.row-item img {
     display: block;
     width: 235px;
     padding: 0px;
 }
-
+.row-item p {
+    margin: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .section-head {
     background: linear-gradient(180deg, #b2afb4 0%,#908f99 45%, #908f99 55%,#b2afb4 100% );
@@ -90,4 +97,22 @@ header h2 {
     margin: 0px;
     height: 40px;
     line-height: 40px;
+    color: #fff;
+    padding: 0px 7px;
 }
+
+.badges {
+    padding: 5px;
+}
+
+.badges img {
+    width: 30px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.badges button {
+    display: block;
+    margin: 5px auto;
+}
+

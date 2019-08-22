@@ -1,0 +1,120 @@
+/** {
+    outline: 1px solid red;
+}*/
+
+body {
+    background-color: #245077;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+ul {
+    padding: 0;
+}
+
+header {
+    height: 110px;
+}
+header img {
+    height: 95px;
+    display: inline-block;
+}
+.featured, footer .col {
+    text-align: center;
+}
+.user-controls {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    left: 370px;
+    right: 10px;
+    vertical-align: top;
+    font-size: small;
+    
+}
+.user-controls div a {
+    color: yellow;
+}
+form {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type=search] {
+    width: 70px;
+    display: inline-block;
+    border-radius: 1px;
+}
+input[type=submit] {
+    color: #fff;
+    background-color: #245077;
+    font-size: 8pt;
+    border-radius: 5px;
+    display: inline-block;
+    width: 20px;
+    padding: 3px;
+}
+nav {
+    background-color: #477eaf;
+    height: 45px;
+    width: 800px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+    color: #fff;
+    line-height: 45px;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+    height: 110px;
+    background:linear-gradient(180deg, #245077 0%,#3470a8 100% );
+}
+
+.featured {
+    padding: 15px 0px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+}
+
+.resources {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+.resources ul li {
+    text-align: center;
+    list-style: none;
+}
+.philosophy {
+    /*text-align: center;*/
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+blockquote p {
+    line-height: .5;
+    color: yellow;
+    font-style: italic;
+}
+
+.examples {
+    background-color: #ffffff;
+    height: 200px;
+    color: #000;
+}
+.col {
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+
+}
+
+

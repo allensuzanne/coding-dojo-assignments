@@ -1,8 +1,93 @@
 * {
     border: .5px dotted red;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    width: 925px;
-    height: 941px;
+    background-color: #000;
+}
+
+.foreground {
+    background:radial-gradient(circle, #6e5964 0%,#1b0a0e 100% );
+    width: 900px;
+    height: 1190px;
+    margin: auto;
+    color: white;
+}
+
+footer {
+    /*text-align: center;
+    vertical-align: bottom;*/
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 0;
+    height: 100px;
+
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    color: #000;
+
+}
+
+header h1, header h2{
+    display: inline-block; 
+    line-height: 100px;
+}
+
+header h1 {
+    position: relative;
+    left: 20px;
+
+}
+header h2 {
+    position: relative;
+    left: 330px;
+}
+
+.content {
+    height: 990px;
+}
+
+.top-row img, .top-row div {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.top-row div {
+    background-color: grey;
+}
+.second-row {
+    padding: 20px;
+
+}
+
+.row-item  {
+    display: inline-block;
+    width: 235px;
+    vertical-align: top;
+    margin: 10px;
+    padding: 0px;
+}
+
+ .row-item img {
+    display: block;
+    width: 235px;
+    padding: 0px;
+}
+
+
+.section-head {
+    background: linear-gradient(180deg, #b2afb4 0%,#908f99 45%, #908f99 55%,#b2afb4 100% );
+    display: block;
+    margin: 0px;
+    height: 40px;
+    line-height: 40px;
 }

@@ -32,12 +32,13 @@ header img {
     
 }
 .user-controls div a {
-    color: yellow;
+    color: #fcd833;
 }
 form {
-    background-color: black;
+    background-color: #444;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
 }
 input[type=search] {
     width: 70px;
@@ -99,7 +100,7 @@ footer {
 }
 blockquote p {
     line-height: .5;
-    color: yellow;
+    color: #fcd833;
     font-style: italic;
 }
 
@@ -110,11 +111,18 @@ blockquote p {
 }
 .col {
     display: inline-block;
-    width: 400px;
-    padding: 10px;
+    width: 300px;
+    margin: 0px 30px;
     font-size: small;
     text-align: center;
 
 }
-
+hr {
+    height: 5px;
+    background-color: #75a7d2;
+}
+.col ul {
+    width: 220px;
+    margin: auto;
+}
 

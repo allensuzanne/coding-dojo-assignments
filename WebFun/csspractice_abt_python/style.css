@@ -92,6 +92,11 @@ footer {
     text-align: center;
     list-style: none;
 }
+
+.resources ul li:before{
+    content: "\00BB \0020";
+    color:yellow;
+}
 .philosophy {
     /*text-align: center;*/
     width: 500px;
@@ -124,5 +129,9 @@ hr {
 .col ul {
     width: 220px;
     margin: auto;
+}
+
+.col ul li {
+    list-style-type: square;
 }
 

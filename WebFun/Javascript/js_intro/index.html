@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS1</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <img alt="number 1" src="img/1.png">
+
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns 35</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>35</th>
+        </tr>
+    </table>
+
+
+       <img alt="number 2" src="img/2.png">
+
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns 4</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>8</th>
+        </tr>
+    </table>
+
+    <img alt="number 3" src="img/3.png">
+
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns b</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>param: b, call 2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>6</th>
+        </tr>
+    </table>
+
+
+    <img alt="number 4" src="img/4.png">
+
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns b*3</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>3</td>
+        </tr>
+        <!--<tr>
+            <td>param: b, call 2</td>
+            <td>4</td>
+        </tr>-->
+        <tr>
+            <th>Console:</th>
+            <th>9</th>
+        </tr>
+    </table>
+
+    <img alt="number 5" src="img/5.png">
+
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns b*4</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>10</td>
+        </tr>
+        <!--<tr>
+            <td>param: b, call 2</td>
+            <td>4</td>
+        </tr>-->
+        <tr>
+            <th>Console:</th>
+            <th>10,40</th>
+        </tr>
+    </table>
+
+
+    <img alt="number 6" src="img/6.png">
+    <p>Trick: console log within function never occurs because it follows return statement</p>
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>return varies</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>15</td>
+        </tr>
+        <!--<tr>
+            <td>param: b, call 2</td>
+            <td>4</td>
+        </tr>-->
+        <tr>
+            <th>Console:</th>
+            <th>4</th>
+        </tr>
+    </table>
+
+    <img alt="number 7" src="img/7.png">
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>b*c</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>param: c, call 1</td>
+            <td>3</td>
+        </tr>
+             <tr>
+            <td>param: b, call 2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>param: c, call 2</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>30,30</th>
+        </tr>
+    </table>
+
+    <img alt="number 8" src="img/8.png">
+    <!--<p>Trick: console log within function never occurs because it follows return statement</p>-->
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>param: b, call 2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>0,1,2,undefined,0,1,2,3,undefined</th>
+        </tr>
+    </table>
+    
+        <img alt="number 9" src="img/9.png">
+    <!--<p>Trick: console log within function never occurs because it follows return statement</p>-->
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>0,2,3,5,6,8,9,11</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>2,5,8,11</th>
+        </tr>
+    </table>
+
+    <img alt="number 10" src="img/10.png">
+    <!--<p>Trick: console log within function never occurs because it follows return statement</p>-->
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns b*c</td>
+        </tr>
+        <tr>
+            <td>param: b, call 1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>param: c, call 1</td>
+            <td>10</td>
+        </tr>
+             <tr>
+            <td>param: b, call 2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>param: c, call 2</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>0 thru 9</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>0,1,2,3,4,5,6,7,8,9<br>0,1,2,3,4,5,6,7,8,9,0</th>
+        </tr>
+    </table>
+    
+    <img alt="number 11" src="img/11.png">
+    <!--<p>Trick: console log within function never occurs because it follows return statement</p>-->
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>0 thru 9</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>0 thru 9</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>0,1,2,3,4,5,6,7,8,9,0<br>
+            0,1,2,3,4,5,6,7,8,9,1<br>
+            0,1,2,3,4,5,6,7,8,9,2<br>
+            0,1,2,3,4,5,6,7,8,9,3<br>
+            0,1,2,3,4,5,6,7,8,9,4<br>
+            0,1,2,3,4,5,6,7,8,9,5<br>
+            0,1,2,3,4,5,6,7,8,9,6<br>
+            0,1,2,3,4,5,6,7,8,9,7<br>
+            0,1,2,3,4,5,6,7,8,9,8<br>
+            0,1,2,3,4,5,6,7,8,9,9<br>
+            0,1,2,3,4,5,6,7,8,9,10<br></th>
+        </tr>
+    </table>
+
+    <img alt="number 12" src="img/12.png">
+    <p>I don't want to type all that, so I'm changing the end loop condition to i<5</p>
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>0 thru 4</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>0 thru 4</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>0,0,0,0,0<br>
+            0,1,2,3,1<br>
+            0,1,2,3,2<br>
+            0,1,2,3,3<br>
+            </th>
+        </tr>
+    </table>
+
+
+    <img alt="number 13" src="img/13.png">
+<p>function a() is never called</p>
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>10</th>
+        </tr>
+    </table>
+
+
+    <img alt="number 14" src="img/14.png">
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns undefined</td>
+        </tr>
+        <tr>
+            <td>global var z</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>local var z</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>15,undefined</th>
+        </tr>
+    </table>
+    
+    <img alt="number 15" src="img/15.png">
+    <table>
+        <thead>
+          
+            <th>Var</th>
+            <th>Val</th>
+        
+        </thead>
+        <tr>
+            <td>a()</td>
+            <td>returns local z</td>
+        </tr>
+        <tr>
+            <td>global var z</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>local var z</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>reset global var z</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th>Console:</th>
+            <th>15,15</th>
+        </tr>
+    </table>
+<p>this "submit an HTML doc" idea was 100% not worth it</p>
+
+</body>
+</html>

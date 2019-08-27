@@ -1,0 +1,18 @@
+* {
+    border: 1px dotted red;
+}
+
+.sidebar {
+    width: 170px;
+    display: inline-block;
+}
+
+.main-page {
+    display: inline-block;
+    width: 522px;
+    margin: 0px;
+}
+
+.contact, .main-page h3 {
+    display: inline-block;
+}

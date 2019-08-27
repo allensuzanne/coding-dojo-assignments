@@ -135,3 +135,10 @@ footer a img {
     vertical-align: bottom;
     padding: 2px 5px;
 }
+.crazy{
+    font-family: fantasy;
+    color: hotpink;
+    font-size: 55px;
+    font-weight: bolder;
+    background-color: #245076;
+}

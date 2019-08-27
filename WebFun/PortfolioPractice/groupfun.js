@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $("p").click(function(){
-    $('body').hide();
+    $('h1').after("<b> Don't ya know?</b>");
   });
 });
